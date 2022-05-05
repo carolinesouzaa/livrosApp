@@ -1,0 +1,7 @@
+{
+  "name": "livrosApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
