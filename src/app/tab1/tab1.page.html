@@ -1,17 +1,58 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Produtos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar showCancelButton="focus" cancelButtonText="Custom Cancel"></ion-searchbar>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img style="border-radius: 10px;" src="https://consultoreditorial.com.br/wp-content/uploads/2021/01/abd28b32cd9857bb2db3c8be55636df9.jpg">
+    </ion-thumbnail>
+    <ion-label>Eu e Esse Meu Coração</ion-label>
+    <ion-badge color="light">R$29,00</ion-badge>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img style="border-radius: 10px;" src="https://m.media-amazon.com/images/I/41Yzwvd85oS.jpg">
+    </ion-thumbnail>
+    <ion-label>Os Dois Morrem no Final</ion-label>
+    <ion-badge color="light">R$35,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img style="border-radius: 10px;" src="https://images-na.ssl-images-amazon.com/images/I/81Vhnel+xxL.jpg">
+    </ion-thumbnail>
+    <ion-label>Todas as Suas (Im)Perfeições</ion-label>
+    <ion-badge color="light">R$29,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img style="border-radius: 10px;" src="https://a-static.mlcdn.com.br/618x463/livro-trilogia-para-todos-os-garotos-que-ja-amei/magazineluiza/222765100/ab387f28c0c84f0346e451584ad3bc21.jpg">
+    </ion-thumbnail>
+    <ion-label>Box: Para Todos os Garotos Que Já Amei</ion-label>
+    <ion-badge color="light">R$159,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img style="border-radius: 10px;" src="https://i.zst.com.br/thumbs/12/3a/2e/1458295019.jpg">
+    </ion-thumbnail>
+    <ion-label>Confissões de Um Garoto Tímido, Nerd e (Ligeiramente) Apaixonado</ion-label>
+    <ion-badge color="light">R$25,99</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img style="border-radius: 10px;" src="https://cf.shopee.com.br/file/9d756b188645702807bc18ea8463d007">
+    </ion-thumbnail>
+    <ion-label>Confissões de Uma Garota Excluída, Mal-Amada e (Um Pouco) Dramática</ion-label>
+    <ion-badge color="light">R$29,99</ion-badge>
+  </ion-item>
 </ion-content>
